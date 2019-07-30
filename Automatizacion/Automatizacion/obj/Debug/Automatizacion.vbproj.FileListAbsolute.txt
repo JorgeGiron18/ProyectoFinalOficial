@@ -1,0 +1,116 @@
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\bin\Debug\itextsharp.dll
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\bin\Debug\itextsharp.xml
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\Hector\Documents\Visual Studio 2008\Projects\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\itextsharp.xml
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\CTIT\Documents\Proyecto de Automatizacion\Automatizacion Solvencia\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Hector\Desktop\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+\\172.16.126.10\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+\\172.16.126.10\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+\\172.16.126.10\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\itextsharp.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\itextsharp.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.Cache
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbprojAssemblyReference.cache
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.cache
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CoreCompileInputs.cache
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CopyComplete
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\Luis'G\Documents\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbprojAssemblyReference.cache
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.cache
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CoreCompileInputs.cache
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CopyComplete
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb

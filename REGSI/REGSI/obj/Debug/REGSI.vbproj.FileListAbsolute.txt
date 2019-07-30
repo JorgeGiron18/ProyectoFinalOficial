@@ -1,0 +1,85 @@
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\REGSI.exe
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\REGSI.pdb
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\REGSI.xml
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.Resources.resources
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.Cache
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.exe
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.xml
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.pdb
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\Automatizacion.exe
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\itextsharp.dll
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\itextsharp.xml
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\Automatizacion.pdb
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\Automatizacion.xml
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\obj\Debug\REGSI.Menu.resources
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\SigPlusNET.dll
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\CTIT\Documents\Visual Studio 2008\Projects\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+\\172.16.26.100\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.exe
+\\172.16.26.100\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.xml
+\\172.16.26.100\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.pdb
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.exe
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.xml
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.pdb
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\ResolveAssemblyReference.cache
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Menu.resources
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Resources.resources
+E:\apps\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.Cache
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\ResolveAssemblyReference.cache
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Menu.resources
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Resources.resources
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.Cache
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\itextsharp.dll
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\SigPlusNET.dll
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\itextsharp.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\itextsharp.dll
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\SigPlusNET.dll
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\itextsharp.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.pdb
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.xml
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\ResolveAssemblyReference.cache
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Menu.resources
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Resources.resources
+E:\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.Cache
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Menu.resources
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.Resources.resources
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.Cache
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\REGSI.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\itextsharp.dll
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\SigPlusNET.dll
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.pdb
+C:\Users\CDUARTE.REGISTROSI\Dropbox\Automatizacion Solvencia\Automatizacion Solvencia - Viejo\FORMULARIO SOLVENCIA\REGSI\REGSI\bin\Debug\Automatizacion.xml
