@@ -114,3 +114,35 @@ C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Aut
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbprojAssemblyReference.cache
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.cache
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CoreCompileInputs.cache
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CopyComplete
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+D:\FORMULARIO SOLVENCIA\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\Automatizacion.pdb
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\Automatizacion.xml
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\SigPlusNET.dll
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbprojAssemblyReference.cache
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Form1.resources
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\WindowsApplication1.Resources.resources
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.GenerateResource.cache
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CoreCompileInputs.cache
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.vbproj.CopyComplete
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
+D:\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb

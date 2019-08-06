@@ -685,6 +685,9 @@ b) Si el alumno no está solvente, no podrá cancelar sus clases en
         TkSuQmCC
 </value>
   </data>
+  <metadata name="ErrorProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAEAYGAAAAEAIAColAAAFgAAACgAAABgAAAAwAAAAAEAIAAAAAAAAAAAACMuAAAjLgAAAAAAAAAA
@@ -1324,4 +1327,7 @@ b) Si el alumno no está solvente, no podrá cancelar sus clases en
         //////////////////////////////////////////////////8=
 </value>
   </data>
+  <metadata name="ErrorProvider2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>147, 17</value>
+  </metadata>
 </root>

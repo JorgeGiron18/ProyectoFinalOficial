@@ -123,3 +123,44 @@ C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\REGSI - copia\REGS
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.exe
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.xml
 C:\Users\Luis'G\Documents\Proyecto Final\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.pdb
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\REGSI.exe
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\REGSI.pdb
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\REGSI.xml
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\Automatizacion.exe
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\itextsharp.dll
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\SigPlusNET.dll
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\Automatizacion.pdb
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\Automatizacion.xml
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.vbprojAssemblyReference.cache
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.Menu.resources
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.Resources.resources
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.cache
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.CoreCompileInputs.cache
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.CopyComplete
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.exe
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.xml
+D:\FORMULARIO SOLVENCIA\REGSI - copia\REGSI\obj\Debug\REGSI.pdb
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\REGSI.exe.config
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\REGSI.exe
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\REGSI.pdb
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\REGSI.xml
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\Automatizacion.exe
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.exe
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\itextsharp.dll
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\SigPlusNET.dll
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\Automatizacion.pdb
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\Automatizacion.xml
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.pdb
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\sigplusnet_vbnet_lcd15_demo.xml
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.vbprojAssemblyReference.cache
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.Menu.resources
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.Resources.resources
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.GenerateResource.cache
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.CoreCompileInputs.cache
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.vbproj.CopyComplete
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.exe
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.xml
+D:\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.pdb

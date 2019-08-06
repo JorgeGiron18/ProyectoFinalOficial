@@ -23,9 +23,9 @@ Partial Class Menu
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Menu))
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -46,18 +46,18 @@ Partial Class Menu
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(318, 48)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "UNIVERSIDAD CATOLICA DE HONDURAS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "       ""Nuestra Señora Reina de la Paz""        " & _
-            "    " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                 CAMPUS SAN ISIDRO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.Text = "UNIVERSIDAD CATOLICA DE HONDURAS" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "       ""Nuestra Señora Reina de la Paz""        " &
+    "    " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "                 CAMPUS SAN ISIDRO" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'PictureBox1
         '
         Me.PictureBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Image = Global.REGSI.My.Resources.Resources.logopeque
         Me.PictureBox1.Location = New System.Drawing.Point(361, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(192, 278)
+        Me.PictureBox1.Size = New System.Drawing.Size(210, 278)
         Me.PictureBox1.TabIndex = 2
         Me.PictureBox1.TabStop = False
         '
@@ -66,7 +66,7 @@ Partial Class Menu
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.RoyalBlue
-        Me.ClientSize = New System.Drawing.Size(550, 291)
+        Me.ClientSize = New System.Drawing.Size(568, 291)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
