@@ -46,47 +46,47 @@ Partial Class Form1
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Label27 = New System.Windows.Forms.Label()
         Me.cmbCampus = New System.Windows.Forms.ComboBox()
-        Me.txtCorreo = New System.Windows.Forms.TextBox()
-        Me.txtTelefono = New System.Windows.Forms.TextBox()
-        Me.txtCuenta = New System.Windows.Forms.TextBox()
-        Me.txtNombre = New System.Windows.Forms.TextBox()
+        Me.TxtCorreo = New System.Windows.Forms.TextBox()
+        Me.TxtTelefono = New System.Windows.Forms.TextBox()
+        Me.TxtBoxCuenta = New System.Windows.Forms.TextBox()
+        Me.TxtBoxNombreAlumno = New System.Windows.Forms.TextBox()
         Me.Label23 = New System.Windows.Forms.Label()
         Me.Label22 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.cmbCarrera = New System.Windows.Forms.ComboBox()
+        Me.CmboBoxCarrera = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label26 = New System.Windows.Forms.Label()
-        Me.RadioButton2 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
-        Me.txtNrecibo = New System.Windows.Forms.TextBox()
+        Me.NoBecado = New System.Windows.Forms.RadioButton()
+        Me.Becado = New System.Windows.Forms.RadioButton()
+        Me.TxtRecibo = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
-        Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.CheckActivarCuentaParaReintegro = New System.Windows.Forms.CheckBox()
+        Me.CcmbCampusDestino = New System.Windows.Forms.ComboBox()
         Me.btnSiguiente = New System.Windows.Forms.Button()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
-        Me.txtEspecificaciones = New System.Windows.Forms.RichTextBox()
+        Me.RichTextBoxEspecificarRazones = New System.Windows.Forms.RichTextBox()
         Me.Label6 = New System.Windows.Forms.Label()
-        Me.CheckBox15 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox14 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox13 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox12 = New System.Windows.Forms.CheckBox()
+        Me.CheckOtros_Razones = New System.Windows.Forms.CheckBox()
+        Me.CheckEconomicos = New System.Windows.Forms.CheckBox()
+        Me.CheckTrabajo = New System.Windows.Forms.CheckBox()
+        Me.CheckSalud = New System.Windows.Forms.CheckBox()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.CheckBox11 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox10 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox9 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox8 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox7 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox6 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox5 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox4 = New System.Windows.Forms.CheckBox()
-        Me.chbContaciaA = New System.Windows.Forms.CheckBox()
-        Me.chbCertificadoE = New System.Windows.Forms.CheckBox()
-        Me.ckbSAsignatura = New System.Windows.Forms.CheckBox()
+        Me.CheckOtros_TramitesAcademicos = New System.Windows.Forms.CheckBox()
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil = New System.Windows.Forms.CheckBox()
+        Me.CheckRetiroDeLaUniversidad = New System.Windows.Forms.CheckBox()
+        Me.CheckCancelacionDelPeriodo = New System.Windows.Forms.CheckBox()
+        Me.CheckAbandonoDeLaUniversidad = New System.Windows.Forms.CheckBox()
+        Me.CheckTraslado = New System.Windows.Forms.CheckBox()
+        Me.CheckInicioPractica = New System.Windows.Forms.CheckBox()
+        Me.CheckGraduacion = New System.Windows.Forms.CheckBox()
+        Me.CheckConstanciaAcademica = New System.Windows.Forms.CheckBox()
+        Me.CheckCertificadoDeEstudio = New System.Windows.Forms.CheckBox()
+        Me.CheckSyllabusAsignatura = New System.Windows.Forms.CheckBox()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.ErrorProvider1 = New System.Windows.Forms.ErrorProvider(Me.components)
         Me.ErrorProvider2 = New System.Windows.Forms.ErrorProvider(Me.components)
@@ -108,7 +108,7 @@ Partial Class Form1
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial Rounded MT Bold", 18.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.Yellow
-        Me.Label4.Location = New System.Drawing.Point(307, 12)
+        Me.Label4.Location = New System.Drawing.Point(498, 9)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(351, 28)
         Me.Label4.TabIndex = 9
@@ -147,7 +147,7 @@ Partial Class Form1
         '
         Me.Label20.AutoSize = True
         Me.Label20.Font = New System.Drawing.Font("Arial Rounded MT Bold", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label20.ForeColor = System.Drawing.Color.Orange
+        Me.Label20.ForeColor = System.Drawing.Color.Yellow
         Me.Label20.Location = New System.Drawing.Point(512, 520)
         Me.Label20.Name = "Label20"
         Me.Label20.Size = New System.Drawing.Size(244, 18)
@@ -176,9 +176,9 @@ Partial Class Form1
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.Label19)
-        Me.Panel1.Location = New System.Drawing.Point(0, 348)
+        Me.Panel1.Location = New System.Drawing.Point(153, 348)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(988, 40)
+        Me.Panel1.Size = New System.Drawing.Size(981, 40)
         Me.Panel1.TabIndex = 4
         '
         'Label19
@@ -213,7 +213,7 @@ Partial Class Form1
         '
         'SplitContainer2
         '
-        Me.SplitContainer2.Location = New System.Drawing.Point(-4, 6)
+        Me.SplitContainer2.Location = New System.Drawing.Point(149, 6)
         Me.SplitContainer2.Name = "SplitContainer2"
         '
         'SplitContainer2.Panel1
@@ -317,7 +317,7 @@ Partial Class Form1
         Me.Label14.AutoSize = True
         Me.Label14.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label14.ForeColor = System.Drawing.Color.White
-        Me.Label14.Location = New System.Drawing.Point(1, 40)
+        Me.Label14.Location = New System.Drawing.Point(3, 40)
         Me.Label14.Name = "Label14"
         Me.Label14.Size = New System.Drawing.Size(441, 200)
         Me.Label14.TabIndex = 0
@@ -328,14 +328,14 @@ Partial Class Form1
         Me.TabPage1.BackColor = System.Drawing.Color.RoyalBlue
         Me.TabPage1.Controls.Add(Me.Label27)
         Me.TabPage1.Controls.Add(Me.cmbCampus)
-        Me.TabPage1.Controls.Add(Me.txtCorreo)
-        Me.TabPage1.Controls.Add(Me.txtTelefono)
-        Me.TabPage1.Controls.Add(Me.txtCuenta)
-        Me.TabPage1.Controls.Add(Me.txtNombre)
+        Me.TabPage1.Controls.Add(Me.TxtCorreo)
+        Me.TabPage1.Controls.Add(Me.TxtTelefono)
+        Me.TabPage1.Controls.Add(Me.TxtBoxCuenta)
+        Me.TabPage1.Controls.Add(Me.TxtBoxNombreAlumno)
         Me.TabPage1.Controls.Add(Me.Label23)
         Me.TabPage1.Controls.Add(Me.Label22)
         Me.TabPage1.Controls.Add(Me.PictureBox1)
-        Me.TabPage1.Controls.Add(Me.cmbCarrera)
+        Me.TabPage1.Controls.Add(Me.CmboBoxCarrera)
         Me.TabPage1.Controls.Add(Me.Label1)
         Me.TabPage1.Controls.Add(Me.Label3)
         Me.TabPage1.Controls.Add(Me.Label2)
@@ -366,46 +366,46 @@ Partial Class Form1
         Me.cmbCampus.Items.AddRange(New Object() {"San Isidro - La Ceiba", "San Pedro y San Pablo - San Pedro Sula", "Sagrado Corazón de Jesús - Tegucigalpa", "Santiago Apóstol - Danlí", "Dios Espiíritu Santo - Choluteca", "Santa Rosa de Lima - Santa Rosa de Copán", "Santa Clara - Juticalpa", "Jesús Sacramentado - Siguatepeque ", "San Jorge - Olanchito"})
         Me.cmbCampus.Location = New System.Drawing.Point(955, 27)
         Me.cmbCampus.Name = "cmbCampus"
-        Me.cmbCampus.Size = New System.Drawing.Size(222, 28)
+        Me.cmbCampus.Size = New System.Drawing.Size(209, 28)
         Me.cmbCampus.TabIndex = 15
         '
-        'txtCorreo
+        'TxtCorreo
         '
-        Me.txtCorreo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCorreo.Location = New System.Drawing.Point(551, 115)
-        Me.txtCorreo.MaxLength = 40
-        Me.txtCorreo.Name = "txtCorreo"
-        Me.txtCorreo.Size = New System.Drawing.Size(307, 26)
-        Me.txtCorreo.TabIndex = 5
+        Me.TxtCorreo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtCorreo.Location = New System.Drawing.Point(551, 115)
+        Me.TxtCorreo.MaxLength = 40
+        Me.TxtCorreo.Name = "TxtCorreo"
+        Me.TxtCorreo.Size = New System.Drawing.Size(307, 26)
+        Me.TxtCorreo.TabIndex = 5
         '
-        'txtTelefono
+        'TxtTelefono
         '
-        Me.txtTelefono.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtTelefono.Location = New System.Drawing.Point(138, 115)
-        Me.txtTelefono.MaxLength = 13
-        Me.txtTelefono.Name = "txtTelefono"
-        Me.txtTelefono.Size = New System.Drawing.Size(254, 26)
-        Me.txtTelefono.TabIndex = 4
+        Me.TxtTelefono.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TxtTelefono.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtTelefono.Location = New System.Drawing.Point(138, 115)
+        Me.TxtTelefono.MaxLength = 13
+        Me.TxtTelefono.Name = "TxtTelefono"
+        Me.TxtTelefono.Size = New System.Drawing.Size(254, 26)
+        Me.TxtTelefono.TabIndex = 4
         '
-        'txtCuenta
+        'TxtBoxCuenta
         '
-        Me.txtCuenta.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtCuenta.Location = New System.Drawing.Point(137, 30)
-        Me.txtCuenta.MaxLength = 13
-        Me.txtCuenta.Name = "txtCuenta"
-        Me.txtCuenta.Size = New System.Drawing.Size(262, 26)
-        Me.txtCuenta.TabIndex = 0
+        Me.TxtBoxCuenta.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TxtBoxCuenta.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtBoxCuenta.Location = New System.Drawing.Point(137, 30)
+        Me.TxtBoxCuenta.MaxLength = 13
+        Me.TxtBoxCuenta.Name = "TxtBoxCuenta"
+        Me.TxtBoxCuenta.Size = New System.Drawing.Size(255, 26)
+        Me.TxtBoxCuenta.TabIndex = 0
         '
-        'txtNombre
+        'TxtBoxNombreAlumno
         '
-        Me.txtNombre.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtNombre.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNombre.Location = New System.Drawing.Point(137, 74)
-        Me.txtNombre.Name = "txtNombre"
-        Me.txtNombre.Size = New System.Drawing.Size(1027, 26)
-        Me.txtNombre.TabIndex = 3
+        Me.TxtBoxNombreAlumno.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TxtBoxNombreAlumno.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtBoxNombreAlumno.Location = New System.Drawing.Point(137, 74)
+        Me.TxtBoxNombreAlumno.Name = "TxtBoxNombreAlumno"
+        Me.TxtBoxNombreAlumno.Size = New System.Drawing.Size(1027, 26)
+        Me.TxtBoxNombreAlumno.TabIndex = 3
         '
         'Label23
         '
@@ -432,23 +432,23 @@ Partial Class Form1
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(1170, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(1145, 6)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(179, 155)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.PictureBox1.TabIndex = 11
         Me.PictureBox1.TabStop = False
         '
-        'cmbCarrera
+        'CmboBoxCarrera
         '
-        Me.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.cmbCarrera.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.cmbCarrera.FormattingEnabled = True
-        Me.cmbCarrera.Items.AddRange(New Object() {"Arquitectura", "Administración de Empresas", "Administración de Empresas (Maestria)", "Doctor en Cirugia Dental", "Doctor en Medicina y Cirugia", "Doctorado en Ciencias, Con Orientacion", "Derecho", "Economia y Finanzas (Maestria)", "Gestion Estrategica de Empresas", "Gestion de Proyectos (Maestria)", "Ingeniería Ambiental", "Ingenieria Industrial", "Ingenieria Civil", "Ingenieria en Ciencias de la Computacion", "Mercadotecnia", "Psicologia", "Psicologia(Maestria)", "Teologia Espiritual (Maestria)", "Estudios de Verano", "Maestria en Derecho", "Enfermeria"})
-        Me.cmbCarrera.Location = New System.Drawing.Point(551, 27)
-        Me.cmbCarrera.Name = "cmbCarrera"
-        Me.cmbCarrera.Size = New System.Drawing.Size(307, 28)
-        Me.cmbCarrera.TabIndex = 2
+        Me.CmboBoxCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CmboBoxCarrera.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CmboBoxCarrera.FormattingEnabled = True
+        Me.CmboBoxCarrera.Items.AddRange(New Object() {"Arquitectura", "Administración de Empresas", "Administración de Empresas (Maestria)", "Doctor en Cirugia Dental", "Doctor en Medicina y Cirugia", "Doctorado en Ciencias, Con Orientacion", "Derecho", "Economia y Finanzas (Maestria)", "Gestion Estrategica de Empresas", "Gestion de Proyectos (Maestria)", "Ingeniería Ambiental", "Ingenieria Industrial", "Ingenieria Civil", "Ingenieria en Ciencias de la Computacion", "Mercadotecnia", "Psicologia", "Psicologia(Maestria)", "Teologia Espiritual (Maestria)", "Estudios de Verano", "Maestria en Derecho", "Enfermeria"})
+        Me.CmboBoxCarrera.Location = New System.Drawing.Point(551, 27)
+        Me.CmboBoxCarrera.Name = "CmboBoxCarrera"
+        Me.CmboBoxCarrera.Size = New System.Drawing.Size(307, 28)
+        Me.CmboBoxCarrera.TabIndex = 2
         '
         'Label1
         '
@@ -487,34 +487,34 @@ Partial Class Form1
         '
         Me.GroupBox1.BackColor = System.Drawing.Color.RoyalBlue
         Me.GroupBox1.Controls.Add(Me.Label26)
-        Me.GroupBox1.Controls.Add(Me.RadioButton2)
-        Me.GroupBox1.Controls.Add(Me.RadioButton1)
-        Me.GroupBox1.Controls.Add(Me.txtNrecibo)
+        Me.GroupBox1.Controls.Add(Me.NoBecado)
+        Me.GroupBox1.Controls.Add(Me.Becado)
+        Me.GroupBox1.Controls.Add(Me.TxtRecibo)
         Me.GroupBox1.Controls.Add(Me.Label24)
-        Me.GroupBox1.Controls.Add(Me.CheckBox16)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.CheckActivarCuentaParaReintegro)
+        Me.GroupBox1.Controls.Add(Me.CcmbCampusDestino)
         Me.GroupBox1.Controls.Add(Me.btnSiguiente)
         Me.GroupBox1.Controls.Add(Me.Label21)
         Me.GroupBox1.Controls.Add(Me.Label8)
         Me.GroupBox1.Controls.Add(Me.Label7)
-        Me.GroupBox1.Controls.Add(Me.txtEspecificaciones)
+        Me.GroupBox1.Controls.Add(Me.RichTextBoxEspecificarRazones)
         Me.GroupBox1.Controls.Add(Me.Label6)
-        Me.GroupBox1.Controls.Add(Me.CheckBox15)
-        Me.GroupBox1.Controls.Add(Me.CheckBox14)
-        Me.GroupBox1.Controls.Add(Me.CheckBox13)
-        Me.GroupBox1.Controls.Add(Me.CheckBox12)
+        Me.GroupBox1.Controls.Add(Me.CheckOtros_Razones)
+        Me.GroupBox1.Controls.Add(Me.CheckEconomicos)
+        Me.GroupBox1.Controls.Add(Me.CheckTrabajo)
+        Me.GroupBox1.Controls.Add(Me.CheckSalud)
         Me.GroupBox1.Controls.Add(Me.Label5)
-        Me.GroupBox1.Controls.Add(Me.CheckBox11)
-        Me.GroupBox1.Controls.Add(Me.CheckBox10)
-        Me.GroupBox1.Controls.Add(Me.CheckBox9)
-        Me.GroupBox1.Controls.Add(Me.CheckBox8)
-        Me.GroupBox1.Controls.Add(Me.CheckBox7)
-        Me.GroupBox1.Controls.Add(Me.CheckBox6)
-        Me.GroupBox1.Controls.Add(Me.CheckBox5)
-        Me.GroupBox1.Controls.Add(Me.CheckBox4)
-        Me.GroupBox1.Controls.Add(Me.chbContaciaA)
-        Me.GroupBox1.Controls.Add(Me.chbCertificadoE)
-        Me.GroupBox1.Controls.Add(Me.ckbSAsignatura)
+        Me.GroupBox1.Controls.Add(Me.CheckOtros_TramitesAcademicos)
+        Me.GroupBox1.Controls.Add(Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil)
+        Me.GroupBox1.Controls.Add(Me.CheckRetiroDeLaUniversidad)
+        Me.GroupBox1.Controls.Add(Me.CheckCancelacionDelPeriodo)
+        Me.GroupBox1.Controls.Add(Me.CheckAbandonoDeLaUniversidad)
+        Me.GroupBox1.Controls.Add(Me.CheckTraslado)
+        Me.GroupBox1.Controls.Add(Me.CheckInicioPractica)
+        Me.GroupBox1.Controls.Add(Me.CheckGraduacion)
+        Me.GroupBox1.Controls.Add(Me.CheckConstanciaAcademica)
+        Me.GroupBox1.Controls.Add(Me.CheckCertificadoDeEstudio)
+        Me.GroupBox1.Controls.Add(Me.CheckSyllabusAsignatura)
         Me.GroupBox1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.ForeColor = System.Drawing.Color.White
@@ -528,43 +528,43 @@ Partial Class Form1
         'Label26
         '
         Me.Label26.AutoSize = True
-        Me.Label26.Location = New System.Drawing.Point(665, 269)
+        Me.Label26.Location = New System.Drawing.Point(703, 299)
         Me.Label26.Name = "Label26"
-        Me.Label26.Size = New System.Drawing.Size(168, 24)
+        Me.Label26.Size = New System.Drawing.Size(121, 24)
         Me.Label26.TabIndex = 38
-        Me.Label26.Text = "Tiene alguna beca"
+        Me.Label26.Text = "¿Es becado?"
         '
-        'RadioButton2
+        'NoBecado
         '
-        Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(767, 304)
-        Me.RadioButton2.Name = "RadioButton2"
-        Me.RadioButton2.Size = New System.Drawing.Size(53, 28)
-        Me.RadioButton2.TabIndex = 36
-        Me.RadioButton2.TabStop = True
-        Me.RadioButton2.Text = "No"
-        Me.RadioButton2.UseVisualStyleBackColor = True
+        Me.NoBecado.AutoSize = True
+        Me.NoBecado.Location = New System.Drawing.Point(768, 334)
+        Me.NoBecado.Name = "NoBecado"
+        Me.NoBecado.Size = New System.Drawing.Size(53, 28)
+        Me.NoBecado.TabIndex = 36
+        Me.NoBecado.TabStop = True
+        Me.NoBecado.Text = "No"
+        Me.NoBecado.UseVisualStyleBackColor = True
         '
-        'RadioButton1
+        'Becado
         '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(707, 304)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(44, 28)
-        Me.RadioButton1.TabIndex = 35
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Si"
-        Me.RadioButton1.UseVisualStyleBackColor = True
+        Me.Becado.AutoSize = True
+        Me.Becado.Location = New System.Drawing.Point(707, 334)
+        Me.Becado.Name = "Becado"
+        Me.Becado.Size = New System.Drawing.Size(44, 28)
+        Me.Becado.TabIndex = 35
+        Me.Becado.TabStop = True
+        Me.Becado.Text = "Si"
+        Me.Becado.UseVisualStyleBackColor = True
         '
-        'txtNrecibo
+        'TxtRecibo
         '
-        Me.txtNrecibo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
-        Me.txtNrecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtNrecibo.Location = New System.Drawing.Point(337, 312)
-        Me.txtNrecibo.MaxLength = 13
-        Me.txtNrecibo.Name = "txtNrecibo"
-        Me.txtNrecibo.Size = New System.Drawing.Size(152, 26)
-        Me.txtNrecibo.TabIndex = 34
+        Me.TxtRecibo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper
+        Me.TxtRecibo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TxtRecibo.Location = New System.Drawing.Point(337, 312)
+        Me.TxtRecibo.MaxLength = 13
+        Me.TxtRecibo.Name = "TxtRecibo"
+        Me.TxtRecibo.Size = New System.Drawing.Size(152, 26)
+        Me.TxtRecibo.TabIndex = 34
         '
         'Label24
         '
@@ -577,33 +577,33 @@ Partial Class Form1
         Me.Label24.TabIndex = 33
         Me.Label24.Text = "No. Recibo de Pago(banco cuando " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "aplique):"
         '
-        'CheckBox16
+        'CheckActivarCuentaParaReintegro
         '
-        Me.CheckBox16.AutoSize = True
-        Me.CheckBox16.Location = New System.Drawing.Point(500, 229)
-        Me.CheckBox16.Name = "CheckBox16"
-        Me.CheckBox16.Size = New System.Drawing.Size(272, 28)
-        Me.CheckBox16.TabIndex = 32
-        Me.CheckBox16.Text = "Activar Cuenta para reintegro"
-        Me.CheckBox16.UseVisualStyleBackColor = True
+        Me.CheckActivarCuentaParaReintegro.AutoSize = True
+        Me.CheckActivarCuentaParaReintegro.Location = New System.Drawing.Point(707, 227)
+        Me.CheckActivarCuentaParaReintegro.Name = "CheckActivarCuentaParaReintegro"
+        Me.CheckActivarCuentaParaReintegro.Size = New System.Drawing.Size(272, 28)
+        Me.CheckActivarCuentaParaReintegro.TabIndex = 32
+        Me.CheckActivarCuentaParaReintegro.Text = "Activar Cuenta para reintegro"
+        Me.CheckActivarCuentaParaReintegro.UseVisualStyleBackColor = True
         '
-        'ComboBox2
+        'CcmbCampusDestino
         '
-        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox2.Enabled = False
-        Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"", "Choluteca", "Danli", "Juticalpa", "La Ceiba", "Olanchito", "San Pedro Sula", "Santa Rosa", "Siguatepeque", "Tegucigalpa"})
-        Me.ComboBox2.Location = New System.Drawing.Point(337, 269)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(152, 28)
-        Me.ComboBox2.TabIndex = 31
+        Me.CcmbCampusDestino.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.CcmbCampusDestino.Enabled = False
+        Me.CcmbCampusDestino.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.CcmbCampusDestino.FormattingEnabled = True
+        Me.CcmbCampusDestino.Items.AddRange(New Object() {"", "Choluteca", "Danli", "Juticalpa", "La Ceiba", "Olanchito", "San Pedro Sula", "Santa Rosa", "Siguatepeque", "Tegucigalpa"})
+        Me.CcmbCampusDestino.Location = New System.Drawing.Point(337, 269)
+        Me.CcmbCampusDestino.Name = "CcmbCampusDestino"
+        Me.CcmbCampusDestino.Size = New System.Drawing.Size(152, 28)
+        Me.CcmbCampusDestino.TabIndex = 31
         '
         'btnSiguiente
         '
         Me.btnSiguiente.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSiguiente.ForeColor = System.Drawing.Color.Black
-        Me.btnSiguiente.Location = New System.Drawing.Point(806, 388)
+        Me.btnSiguiente.Location = New System.Drawing.Point(815, 420)
         Me.btnSiguiente.Name = "btnSiguiente"
         Me.btnSiguiente.Size = New System.Drawing.Size(140, 36)
         Me.btnSiguiente.TabIndex = 24
@@ -614,7 +614,7 @@ Partial Class Form1
         '
         Me.Label21.AutoSize = True
         Me.Label21.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label21.Location = New System.Drawing.Point(763, 90)
+        Me.Label21.Location = New System.Drawing.Point(970, 90)
         Me.Label21.Name = "Label21"
         Me.Label21.Size = New System.Drawing.Size(200, 24)
         Me.Label21.TabIndex = 30
@@ -625,7 +625,7 @@ Partial Class Form1
         Me.Label8.AutoSize = True
         Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Yellow
-        Me.Label8.Location = New System.Drawing.Point(496, 39)
+        Me.Label8.Location = New System.Drawing.Point(703, 39)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(211, 24)
         Me.Label8.TabIndex = 29
@@ -642,13 +642,13 @@ Partial Class Form1
         Me.Label7.TabIndex = 28
         Me.Label7.Text = "Trámites Administrativos"
         '
-        'txtEspecificaciones
+        'RichTextBoxEspecificarRazones
         '
-        Me.txtEspecificaciones.Location = New System.Drawing.Point(145, 422)
-        Me.txtEspecificaciones.Name = "txtEspecificaciones"
-        Me.txtEspecificaciones.Size = New System.Drawing.Size(371, 49)
-        Me.txtEspecificaciones.TabIndex = 21
-        Me.txtEspecificaciones.Text = ""
+        Me.RichTextBoxEspecificarRazones.Location = New System.Drawing.Point(145, 422)
+        Me.RichTextBoxEspecificarRazones.Name = "RichTextBoxEspecificarRazones"
+        Me.RichTextBoxEspecificarRazones.Size = New System.Drawing.Size(344, 49)
+        Me.RichTextBoxEspecificarRazones.TabIndex = 21
+        Me.RichTextBoxEspecificarRazones.Text = ""
         '
         'Label6
         '
@@ -657,49 +657,49 @@ Partial Class Form1
         Me.Label6.ForeColor = System.Drawing.Color.Yellow
         Me.Label6.Location = New System.Drawing.Point(48, 441)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(93, 17)
+        Me.Label6.Size = New System.Drawing.Size(98, 17)
         Me.Label6.TabIndex = 26
-        Me.Label6.Text = "Especifique"
+        Me.Label6.Text = "Especifique:"
         '
-        'CheckBox15
+        'CheckOtros_Razones
         '
-        Me.CheckBox15.AutoSize = True
-        Me.CheckBox15.Location = New System.Drawing.Point(438, 388)
-        Me.CheckBox15.Name = "CheckBox15"
-        Me.CheckBox15.Size = New System.Drawing.Size(74, 28)
-        Me.CheckBox15.TabIndex = 20
-        Me.CheckBox15.Text = "Otros"
-        Me.CheckBox15.UseVisualStyleBackColor = True
+        Me.CheckOtros_Razones.AutoSize = True
+        Me.CheckOtros_Razones.Location = New System.Drawing.Point(438, 388)
+        Me.CheckOtros_Razones.Name = "CheckOtros_Razones"
+        Me.CheckOtros_Razones.Size = New System.Drawing.Size(74, 28)
+        Me.CheckOtros_Razones.TabIndex = 20
+        Me.CheckOtros_Razones.Text = "Otros"
+        Me.CheckOtros_Razones.UseVisualStyleBackColor = True
         '
-        'CheckBox14
+        'CheckEconomicos
         '
-        Me.CheckBox14.AutoSize = True
-        Me.CheckBox14.Location = New System.Drawing.Point(233, 388)
-        Me.CheckBox14.Name = "CheckBox14"
-        Me.CheckBox14.Size = New System.Drawing.Size(204, 28)
-        Me.CheckBox14.TabIndex = 19
-        Me.CheckBox14.Text = "Motivos Económicos"
-        Me.CheckBox14.UseVisualStyleBackColor = True
+        Me.CheckEconomicos.AutoSize = True
+        Me.CheckEconomicos.Location = New System.Drawing.Point(233, 388)
+        Me.CheckEconomicos.Name = "CheckEconomicos"
+        Me.CheckEconomicos.Size = New System.Drawing.Size(204, 28)
+        Me.CheckEconomicos.TabIndex = 19
+        Me.CheckEconomicos.Text = "Motivos Económicos"
+        Me.CheckEconomicos.UseVisualStyleBackColor = True
         '
-        'CheckBox13
+        'CheckTrabajo
         '
-        Me.CheckBox13.AutoSize = True
-        Me.CheckBox13.Location = New System.Drawing.Point(134, 388)
-        Me.CheckBox13.Name = "CheckBox13"
-        Me.CheckBox13.Size = New System.Drawing.Size(93, 28)
-        Me.CheckBox13.TabIndex = 18
-        Me.CheckBox13.Text = "Trabajo"
-        Me.CheckBox13.UseVisualStyleBackColor = True
+        Me.CheckTrabajo.AutoSize = True
+        Me.CheckTrabajo.Location = New System.Drawing.Point(134, 388)
+        Me.CheckTrabajo.Name = "CheckTrabajo"
+        Me.CheckTrabajo.Size = New System.Drawing.Size(93, 28)
+        Me.CheckTrabajo.TabIndex = 18
+        Me.CheckTrabajo.Text = "Trabajo"
+        Me.CheckTrabajo.UseVisualStyleBackColor = True
         '
-        'CheckBox12
+        'CheckSalud
         '
-        Me.CheckBox12.AutoSize = True
-        Me.CheckBox12.Location = New System.Drawing.Point(51, 388)
-        Me.CheckBox12.Name = "CheckBox12"
-        Me.CheckBox12.Size = New System.Drawing.Size(77, 28)
-        Me.CheckBox12.TabIndex = 17
-        Me.CheckBox12.Text = "Salud"
-        Me.CheckBox12.UseVisualStyleBackColor = True
+        Me.CheckSalud.AutoSize = True
+        Me.CheckSalud.Location = New System.Drawing.Point(51, 388)
+        Me.CheckSalud.Name = "CheckSalud"
+        Me.CheckSalud.Size = New System.Drawing.Size(77, 28)
+        Me.CheckSalud.TabIndex = 17
+        Me.CheckSalud.Text = "Salud"
+        Me.CheckSalud.UseVisualStyleBackColor = True
         '
         'Label5
         '
@@ -712,115 +712,115 @@ Partial Class Form1
         Me.Label5.TabIndex = 21
         Me.Label5.Text = "Razones"
         '
-        'CheckBox11
+        'CheckOtros_TramitesAcademicos
         '
-        Me.CheckBox11.AutoSize = True
-        Me.CheckBox11.Location = New System.Drawing.Point(502, 268)
-        Me.CheckBox11.Name = "CheckBox11"
-        Me.CheckBox11.Size = New System.Drawing.Size(74, 28)
-        Me.CheckBox11.TabIndex = 16
-        Me.CheckBox11.Text = "Otros"
-        Me.CheckBox11.UseVisualStyleBackColor = True
+        Me.CheckOtros_TramitesAcademicos.AutoSize = True
+        Me.CheckOtros_TramitesAcademicos.Location = New System.Drawing.Point(707, 268)
+        Me.CheckOtros_TramitesAcademicos.Name = "CheckOtros_TramitesAcademicos"
+        Me.CheckOtros_TramitesAcademicos.Size = New System.Drawing.Size(74, 28)
+        Me.CheckOtros_TramitesAcademicos.TabIndex = 16
+        Me.CheckOtros_TramitesAcademicos.Text = "Otros"
+        Me.CheckOtros_TramitesAcademicos.UseVisualStyleBackColor = True
         '
-        'CheckBox10
+        'CheckRetiroPorNormasQueRigenLaVidaEstudiantil
         '
-        Me.CheckBox10.AutoSize = True
-        Me.CheckBox10.Location = New System.Drawing.Point(500, 193)
-        Me.CheckBox10.Name = "CheckBox10"
-        Me.CheckBox10.Size = New System.Drawing.Size(411, 28)
-        Me.CheckBox10.TabIndex = 15
-        Me.CheckBox10.Text = "Retiro por normas que rigen la vida estudiantil"
-        Me.CheckBox10.UseVisualStyleBackColor = True
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.AutoSize = True
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.Location = New System.Drawing.Point(707, 193)
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.Name = "CheckRetiroPorNormasQueRigenLaVidaEstudiantil"
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.Size = New System.Drawing.Size(411, 28)
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.TabIndex = 15
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.Text = "Retiro por normas que rigen la vida estudiantil"
+        Me.CheckRetiroPorNormasQueRigenLaVidaEstudiantil.UseVisualStyleBackColor = True
         '
-        'CheckBox9
+        'CheckRetiroDeLaUniversidad
         '
-        Me.CheckBox9.AutoSize = True
-        Me.CheckBox9.Location = New System.Drawing.Point(500, 159)
-        Me.CheckBox9.Name = "CheckBox9"
-        Me.CheckBox9.Size = New System.Drawing.Size(228, 28)
-        Me.CheckBox9.TabIndex = 14
-        Me.CheckBox9.Text = "Retiro de la Universidad"
-        Me.CheckBox9.UseVisualStyleBackColor = True
+        Me.CheckRetiroDeLaUniversidad.AutoSize = True
+        Me.CheckRetiroDeLaUniversidad.Location = New System.Drawing.Point(707, 159)
+        Me.CheckRetiroDeLaUniversidad.Name = "CheckRetiroDeLaUniversidad"
+        Me.CheckRetiroDeLaUniversidad.Size = New System.Drawing.Size(228, 28)
+        Me.CheckRetiroDeLaUniversidad.TabIndex = 14
+        Me.CheckRetiroDeLaUniversidad.Text = "Retiro de la Universidad"
+        Me.CheckRetiroDeLaUniversidad.UseVisualStyleBackColor = True
         '
-        'CheckBox8
+        'CheckCancelacionDelPeriodo
         '
-        Me.CheckBox8.AutoSize = True
-        Me.CheckBox8.Location = New System.Drawing.Point(500, 125)
-        Me.CheckBox8.Name = "CheckBox8"
-        Me.CheckBox8.Size = New System.Drawing.Size(333, 28)
-        Me.CheckBox8.TabIndex = 13
-        Me.CheckBox8.Text = "Cancelación del periodo académico"
-        Me.CheckBox8.UseVisualStyleBackColor = True
+        Me.CheckCancelacionDelPeriodo.AutoSize = True
+        Me.CheckCancelacionDelPeriodo.Location = New System.Drawing.Point(707, 125)
+        Me.CheckCancelacionDelPeriodo.Name = "CheckCancelacionDelPeriodo"
+        Me.CheckCancelacionDelPeriodo.Size = New System.Drawing.Size(333, 28)
+        Me.CheckCancelacionDelPeriodo.TabIndex = 13
+        Me.CheckCancelacionDelPeriodo.Text = "Cancelación del periodo académico"
+        Me.CheckCancelacionDelPeriodo.UseVisualStyleBackColor = True
         '
-        'CheckBox7
+        'CheckAbandonoDeLaUniversidad
         '
-        Me.CheckBox7.AutoSize = True
-        Me.CheckBox7.Location = New System.Drawing.Point(500, 89)
-        Me.CheckBox7.Name = "CheckBox7"
-        Me.CheckBox7.Size = New System.Drawing.Size(268, 28)
-        Me.CheckBox7.TabIndex = 12
-        Me.CheckBox7.Text = "Abandono de la Universidad"
-        Me.CheckBox7.UseVisualStyleBackColor = True
+        Me.CheckAbandonoDeLaUniversidad.AutoSize = True
+        Me.CheckAbandonoDeLaUniversidad.Location = New System.Drawing.Point(707, 89)
+        Me.CheckAbandonoDeLaUniversidad.Name = "CheckAbandonoDeLaUniversidad"
+        Me.CheckAbandonoDeLaUniversidad.Size = New System.Drawing.Size(268, 28)
+        Me.CheckAbandonoDeLaUniversidad.TabIndex = 12
+        Me.CheckAbandonoDeLaUniversidad.Text = "Abandono de la Universidad"
+        Me.CheckAbandonoDeLaUniversidad.UseVisualStyleBackColor = True
         '
-        'CheckBox6
+        'CheckTraslado
         '
-        Me.CheckBox6.AutoSize = True
-        Me.CheckBox6.Location = New System.Drawing.Point(52, 268)
-        Me.CheckBox6.Name = "CheckBox6"
-        Me.CheckBox6.Size = New System.Drawing.Size(279, 28)
-        Me.CheckBox6.TabIndex = 11
-        Me.CheckBox6.Text = "Traslado hacia el Campus de:"
-        Me.CheckBox6.UseVisualStyleBackColor = True
+        Me.CheckTraslado.AutoSize = True
+        Me.CheckTraslado.Location = New System.Drawing.Point(48, 268)
+        Me.CheckTraslado.Name = "CheckTraslado"
+        Me.CheckTraslado.Size = New System.Drawing.Size(279, 28)
+        Me.CheckTraslado.TabIndex = 11
+        Me.CheckTraslado.Text = "Traslado hacia el Campus de:"
+        Me.CheckTraslado.UseVisualStyleBackColor = True
         '
-        'CheckBox5
+        'CheckInicioPractica
         '
-        Me.CheckBox5.AutoSize = True
-        Me.CheckBox5.Location = New System.Drawing.Point(52, 229)
-        Me.CheckBox5.Name = "CheckBox5"
-        Me.CheckBox5.Size = New System.Drawing.Size(171, 28)
-        Me.CheckBox5.TabIndex = 10
-        Me.CheckBox5.Text = "Inicio de Práctica"
-        Me.CheckBox5.UseVisualStyleBackColor = True
+        Me.CheckInicioPractica.AutoSize = True
+        Me.CheckInicioPractica.Location = New System.Drawing.Point(48, 227)
+        Me.CheckInicioPractica.Name = "CheckInicioPractica"
+        Me.CheckInicioPractica.Size = New System.Drawing.Size(171, 28)
+        Me.CheckInicioPractica.TabIndex = 10
+        Me.CheckInicioPractica.Text = "Inicio de Práctica"
+        Me.CheckInicioPractica.UseVisualStyleBackColor = True
         '
-        'CheckBox4
+        'CheckGraduacion
         '
-        Me.CheckBox4.AutoSize = True
-        Me.CheckBox4.Location = New System.Drawing.Point(52, 193)
-        Me.CheckBox4.Name = "CheckBox4"
-        Me.CheckBox4.Size = New System.Drawing.Size(127, 28)
-        Me.CheckBox4.TabIndex = 9
-        Me.CheckBox4.Text = "Graduación"
-        Me.CheckBox4.UseVisualStyleBackColor = True
+        Me.CheckGraduacion.AutoSize = True
+        Me.CheckGraduacion.Location = New System.Drawing.Point(48, 193)
+        Me.CheckGraduacion.Name = "CheckGraduacion"
+        Me.CheckGraduacion.Size = New System.Drawing.Size(127, 28)
+        Me.CheckGraduacion.TabIndex = 9
+        Me.CheckGraduacion.Text = "Graduación"
+        Me.CheckGraduacion.UseVisualStyleBackColor = True
         '
-        'chbContaciaA
+        'CheckConstanciaAcademica
         '
-        Me.chbContaciaA.AutoSize = True
-        Me.chbContaciaA.Location = New System.Drawing.Point(52, 159)
-        Me.chbContaciaA.Name = "chbContaciaA"
-        Me.chbContaciaA.Size = New System.Drawing.Size(222, 28)
-        Me.chbContaciaA.TabIndex = 8
-        Me.chbContaciaA.Text = "Constancia Académica"
-        Me.chbContaciaA.UseVisualStyleBackColor = True
+        Me.CheckConstanciaAcademica.AutoSize = True
+        Me.CheckConstanciaAcademica.Location = New System.Drawing.Point(48, 159)
+        Me.CheckConstanciaAcademica.Name = "CheckConstanciaAcademica"
+        Me.CheckConstanciaAcademica.Size = New System.Drawing.Size(222, 28)
+        Me.CheckConstanciaAcademica.TabIndex = 8
+        Me.CheckConstanciaAcademica.Text = "Constancia Académica"
+        Me.CheckConstanciaAcademica.UseVisualStyleBackColor = True
         '
-        'chbCertificadoE
+        'CheckCertificadoDeEstudio
         '
-        Me.chbCertificadoE.AutoSize = True
-        Me.chbCertificadoE.Location = New System.Drawing.Point(51, 125)
-        Me.chbCertificadoE.Name = "chbCertificadoE"
-        Me.chbCertificadoE.Size = New System.Drawing.Size(221, 28)
-        Me.chbCertificadoE.TabIndex = 7
-        Me.chbCertificadoE.Text = "Certificado de Estudios"
-        Me.chbCertificadoE.UseVisualStyleBackColor = True
+        Me.CheckCertificadoDeEstudio.AutoSize = True
+        Me.CheckCertificadoDeEstudio.Location = New System.Drawing.Point(49, 125)
+        Me.CheckCertificadoDeEstudio.Name = "CheckCertificadoDeEstudio"
+        Me.CheckCertificadoDeEstudio.Size = New System.Drawing.Size(221, 28)
+        Me.CheckCertificadoDeEstudio.TabIndex = 7
+        Me.CheckCertificadoDeEstudio.Text = "Certificado de Estudios"
+        Me.CheckCertificadoDeEstudio.UseVisualStyleBackColor = True
         '
-        'ckbSAsignatura
+        'CheckSyllabusAsignatura
         '
-        Me.ckbSAsignatura.AutoSize = True
-        Me.ckbSAsignatura.Location = New System.Drawing.Point(49, 89)
-        Me.ckbSAsignatura.Name = "ckbSAsignatura"
-        Me.ckbSAsignatura.Size = New System.Drawing.Size(229, 28)
-        Me.ckbSAsignatura.TabIndex = 6
-        Me.ckbSAsignatura.Text = "Syllabus de Asignaturas"
-        Me.ckbSAsignatura.UseVisualStyleBackColor = True
+        Me.CheckSyllabusAsignatura.AutoSize = True
+        Me.CheckSyllabusAsignatura.Location = New System.Drawing.Point(49, 89)
+        Me.CheckSyllabusAsignatura.Name = "CheckSyllabusAsignatura"
+        Me.CheckSyllabusAsignatura.Size = New System.Drawing.Size(229, 28)
+        Me.CheckSyllabusAsignatura.TabIndex = 6
+        Me.CheckSyllabusAsignatura.Text = "Syllabus de Asignaturas"
+        Me.CheckSyllabusAsignatura.UseVisualStyleBackColor = True
         '
         'TabControl1
         '
@@ -897,48 +897,48 @@ Partial Class Form1
     Friend WithEvents TabPage1 As TabPage
     Friend WithEvents Label27 As Label
     Friend WithEvents cmbCampus As ComboBox
-    Friend WithEvents txtCorreo As TextBox
-    Friend WithEvents txtTelefono As TextBox
-    Friend WithEvents txtCuenta As TextBox
-    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents TxtCorreo As TextBox
+    Friend WithEvents TxtTelefono As TextBox
+    Friend WithEvents TxtBoxCuenta As TextBox
+    Friend WithEvents TxtBoxNombreAlumno As TextBox
     Friend WithEvents Label23 As Label
     Friend WithEvents Label22 As Label
     Friend WithEvents PictureBox1 As PictureBox
-    Friend WithEvents cmbCarrera As ComboBox
+    Friend WithEvents CmboBoxCarrera As ComboBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
     Friend WithEvents Label26 As Label
-    Friend WithEvents RadioButton2 As RadioButton
-    Friend WithEvents txtNrecibo As TextBox
+    Friend WithEvents NoBecado As RadioButton
+    Friend WithEvents TxtRecibo As TextBox
     Friend WithEvents Label24 As Label
-    Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents CheckActivarCuentaParaReintegro As CheckBox
+    Friend WithEvents CcmbCampusDestino As ComboBox
     Friend WithEvents btnSiguiente As Button
     Friend WithEvents Label21 As Label
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
-    Friend WithEvents txtEspecificaciones As RichTextBox
+    Friend WithEvents RichTextBoxEspecificarRazones As RichTextBox
     Friend WithEvents Label6 As Label
-    Friend WithEvents CheckBox15 As CheckBox
-    Friend WithEvents CheckBox14 As CheckBox
-    Friend WithEvents CheckBox13 As CheckBox
-    Friend WithEvents CheckBox12 As CheckBox
+    Friend WithEvents CheckOtros_Razones As CheckBox
+    Friend WithEvents CheckEconomicos As CheckBox
+    Friend WithEvents CheckTrabajo As CheckBox
+    Friend WithEvents CheckSalud As CheckBox
     Friend WithEvents Label5 As Label
-    Friend WithEvents CheckBox11 As CheckBox
-    Friend WithEvents CheckBox10 As CheckBox
-    Friend WithEvents CheckBox9 As CheckBox
-    Friend WithEvents CheckBox8 As CheckBox
-    Friend WithEvents CheckBox7 As CheckBox
-    Friend WithEvents CheckBox6 As CheckBox
-    Friend WithEvents CheckBox5 As CheckBox
-    Friend WithEvents CheckBox4 As CheckBox
-    Friend WithEvents chbContaciaA As CheckBox
-    Friend WithEvents chbCertificadoE As CheckBox
-    Friend WithEvents ckbSAsignatura As CheckBox
+    Friend WithEvents CheckOtros_TramitesAcademicos As CheckBox
+    Friend WithEvents CheckRetiroPorNormasQueRigenLaVidaEstudiantil As CheckBox
+    Friend WithEvents CheckRetiroDeLaUniversidad As CheckBox
+    Friend WithEvents CheckCancelacionDelPeriodo As CheckBox
+    Friend WithEvents CheckAbandonoDeLaUniversidad As CheckBox
+    Friend WithEvents CheckTraslado As CheckBox
+    Friend WithEvents CheckInicioPractica As CheckBox
+    Friend WithEvents CheckGraduacion As CheckBox
+    Friend WithEvents CheckConstanciaAcademica As CheckBox
+    Friend WithEvents CheckCertificadoDeEstudio As CheckBox
+    Friend WithEvents CheckSyllabusAsignatura As CheckBox
     Friend WithEvents TabControl1 As TabControl
-    Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents Becado As RadioButton
     Friend WithEvents ErrorProvider1 As ErrorProvider
     Friend WithEvents ErrorProvider2 As ErrorProvider
 End Class
