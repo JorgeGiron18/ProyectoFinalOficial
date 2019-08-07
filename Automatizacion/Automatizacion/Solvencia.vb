@@ -27,10 +27,10 @@ Public Class Form1
         Else
 
 
-            '' Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
-            '' Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & TextBox1.Text & Correlativo & ".pdf"
-            Dim pdfTemplate As String = "D:\FORMULARIO SOLVENCIA\REG-PS.505 Solicitud de Solvencias.pdf"
-            Dim newFile As String = "C:\Users\Wasaby\Documents\Datos\Solvencias\" & txtCuenta.Text & Correlativo & ".pdf"
+            Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
+            Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & txtCuenta.Text & Correlativo & ".pdf"
+            '   Dim pdfTemplate As String = "D:\FORMULARIO SOLVENCIA\REG-PS.505 Solicitud de Solvencias.pdf"
+            '  Dim newFile As String = "C:\Users\Wasaby\Documents\Datos\Solvencias\" & txtCuenta.Text & Correlativo & ".pdf"
             Dim pdfReader As New PdfReader(pdfTemplate)
             Dim pdfStamper As New PdfStamper(pdfReader, New FileStream(
                 newFile, FileMode.Create))
@@ -42,12 +42,12 @@ Public Class Form1
             Dim imagen As iTextSharp.text.Image
             Dim loc As String
 
-            '  loc = "C:\Firmas\Firma.bmp"
-            ' imagen = iTextSharp.text.Image.GetInstance(loc)
-            'imagen.SetAbsolutePosition(389, 92)
-            'imagen.ScaleToFit(130, 130)
-            'pcbContent = pdfStamper.GetUnderContent(1)
-            'pcbContent.AddImage(imagen)
+            loc = "C:\Firmas\Firma.bmp"
+            imagen = iTextSharp.text.Image.GetInstance(loc)
+            imagen.SetAbsolutePosition(389, 92)
+            imagen.ScaleToFit(130, 130)
+            pcbContent = pdfStamper.GetUnderContent(1)
+            pcbContent.AddImage(imagen)
 
             ' set form pdfFormFields
             pdfFormFields.SetField("Cuenta", txtCuenta.Text)
@@ -58,7 +58,7 @@ Public Class Form1
             pdfFormFields.SetField("Tel", txtTelefono.Text)
             pdfFormFields.SetField("Email", txtCorreo.Text)
             pdfFormFields.SetField("Campus", cmbCampus.Text)
-            pdfFormFields.SetField("CampusDestino", ComboBox2.Text)
+            pdfFormFields.SetField("CampusDestino", cmbCdestino.Text)
             pdfFormFields.SetField("Recibo", txtNrecibo.Text)
             'pdfFormFields.SetField("signature5", TextBox1.Text)
 
@@ -129,10 +129,6 @@ Public Class Form1
 
             If RadioButton1.Checked = True Then
                 pdfFormFields.SetField("Beca Si", "On")
-            End If
-
-            If RadioButton2.Checked = True Then
-                pdfFormFields.SetField("Beca No", "Of")
             End If
             If RadioButton2.Checked = True Then
                 pdfFormFields.SetField("BecasTexto", "N/A")
@@ -284,11 +280,11 @@ Public Class Form1
 
     Private Sub CheckBox6_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox6.CheckedChanged
         If CheckBox6.Checked = True Then
-            ComboBox2.Enabled = True
+            cmbCdestino.Enabled = True
             Correlativo = "TL1"
         Else
-            ComboBox2.Text = ""
-            ComboBox2.Enabled = False
+            cmbCdestino.Text = ""
+            cmbCdestino.Enabled = False
             Correlativo = ""
         End If
     End Sub

@@ -64,7 +64,7 @@ Partial Class Form1
         Me.txtNrecibo = New System.Windows.Forms.TextBox()
         Me.Label24 = New System.Windows.Forms.Label()
         Me.CheckBox16 = New System.Windows.Forms.CheckBox()
-        Me.ComboBox2 = New System.Windows.Forms.ComboBox()
+        Me.cmbCdestino = New System.Windows.Forms.ComboBox()
         Me.btnSiguiente = New System.Windows.Forms.Button()
         Me.Label21 = New System.Windows.Forms.Label()
         Me.Label8 = New System.Windows.Forms.Label()
@@ -366,7 +366,7 @@ Partial Class Form1
         Me.cmbCampus.Items.AddRange(New Object() {"San Isidro - La Ceiba", "San Pedro y San Pablo - San Pedro Sula", "Sagrado Corazón de Jesús - Tegucigalpa", "Santiago Apóstol - Danlí", "Dios Espiíritu Santo - Choluteca", "Santa Rosa de Lima - Santa Rosa de Copán", "Santa Clara - Juticalpa", "Jesús Sacramentado - Siguatepeque ", "San Jorge - Olanchito"})
         Me.cmbCampus.Location = New System.Drawing.Point(955, 27)
         Me.cmbCampus.Name = "cmbCampus"
-        Me.cmbCampus.Size = New System.Drawing.Size(222, 28)
+        Me.cmbCampus.Size = New System.Drawing.Size(209, 28)
         Me.cmbCampus.TabIndex = 15
         '
         'txtCorreo
@@ -492,7 +492,7 @@ Partial Class Form1
         Me.GroupBox1.Controls.Add(Me.txtNrecibo)
         Me.GroupBox1.Controls.Add(Me.Label24)
         Me.GroupBox1.Controls.Add(Me.CheckBox16)
-        Me.GroupBox1.Controls.Add(Me.ComboBox2)
+        Me.GroupBox1.Controls.Add(Me.cmbCdestino)
         Me.GroupBox1.Controls.Add(Me.btnSiguiente)
         Me.GroupBox1.Controls.Add(Me.Label21)
         Me.GroupBox1.Controls.Add(Me.Label8)
@@ -587,17 +587,17 @@ Partial Class Form1
         Me.CheckBox16.Text = "Activar Cuenta para reintegro"
         Me.CheckBox16.UseVisualStyleBackColor = True
         '
-        'ComboBox2
+        'cmbCdestino
         '
-        Me.ComboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-        Me.ComboBox2.Enabled = False
-        Me.ComboBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ComboBox2.FormattingEnabled = True
-        Me.ComboBox2.Items.AddRange(New Object() {"", "Choluteca", "Danli", "Juticalpa", "La Ceiba", "Olanchito", "San Pedro Sula", "Santa Rosa", "Siguatepeque", "Tegucigalpa"})
-        Me.ComboBox2.Location = New System.Drawing.Point(337, 269)
-        Me.ComboBox2.Name = "ComboBox2"
-        Me.ComboBox2.Size = New System.Drawing.Size(152, 28)
-        Me.ComboBox2.TabIndex = 31
+        Me.cmbCdestino.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
+        Me.cmbCdestino.Enabled = False
+        Me.cmbCdestino.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.cmbCdestino.FormattingEnabled = True
+        Me.cmbCdestino.Items.AddRange(New Object() {"", "Choluteca", "Danli", "Juticalpa", "La Ceiba", "Olanchito", "San Pedro Sula", "Santa Rosa", "Siguatepeque", "Tegucigalpa"})
+        Me.cmbCdestino.Location = New System.Drawing.Point(337, 269)
+        Me.cmbCdestino.Name = "cmbCdestino"
+        Me.cmbCdestino.Size = New System.Drawing.Size(152, 28)
+        Me.cmbCdestino.TabIndex = 31
         '
         'btnSiguiente
         '
@@ -914,7 +914,7 @@ Partial Class Form1
     Friend WithEvents txtNrecibo As TextBox
     Friend WithEvents Label24 As Label
     Friend WithEvents CheckBox16 As CheckBox
-    Friend WithEvents ComboBox2 As ComboBox
+    Friend WithEvents cmbCdestino As ComboBox
     Friend WithEvents btnSiguiente As Button
     Friend WithEvents Label21 As Label
     Friend WithEvents Label8 As Label
