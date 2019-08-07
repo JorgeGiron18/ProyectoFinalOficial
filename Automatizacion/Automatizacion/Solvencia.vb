@@ -27,27 +27,27 @@ Public Class Form1
         Else
 
 
-            '' Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
-            '' Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & TextBox1.Text & Correlativo & ".pdf"
-            Dim pdfTemplate As String = "D:\FORMULARIO SOLVENCIA\REG-PS.505 Solicitud de Solvencias.pdf"
-            Dim newFile As String = "C:\Users\Wasaby\Documents\Datos\Solvencias\" & TxtBoxCuenta.Text & Correlativo & ".pdf"
+            'Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
+            'Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & TxtBoxCuenta.Text & Correlativo & ".pdf"
+            Dim pdfTemplate As String = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\REG-PS.505 Solicitud de Solvencias.pdf"
+            Dim newFile As String = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Solvencias\" & TxtBoxCuenta.Text & Correlativo & ".pdf"
             Dim pdfReader As New PdfReader(pdfTemplate)
             Dim pdfStamper As New PdfStamper(pdfReader, New FileStream(
                 newFile, FileMode.Create))
             Dim pdfFormFields As AcroFields = pdfStamper.AcroFields
             Dim pcbContent As PdfContentByte = Nothing
-            ' Dim img As System.Drawing.Image = System.Drawing.Image.FromFile("C:\Firmas\Firma.bmp")
+            Dim img As System.Drawing.Image = System.Drawing.Image.FromFile("C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.bmp")
             Dim sap As PdfSignatureAppearance = pdfStamper.SignatureAppearance
             Dim rect As iTextSharp.text.Rectangle = Nothing
             Dim imagen As iTextSharp.text.Image
             Dim loc As String
 
-            '  loc = "C:\Firmas\Firma.bmp"
-            ' imagen = iTextSharp.text.Image.GetInstance(loc)
-            'imagen.SetAbsolutePosition(389, 92)
-            'imagen.ScaleToFit(130, 130)
-            'pcbContent = pdfStamper.GetUnderContent(1)
-            'pcbContent.AddImage(imagen)
+            loc = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.bmp"
+            imagen = iTextSharp.text.Image.GetInstance(loc)
+            imagen.SetAbsolutePosition(427, 47)
+            imagen.ScaleToFit(130, 130)
+            pcbContent = pdfStamper.GetUnderContent(1)
+            pcbContent.AddImage(imagen)
 
             ' set form pdfFormFields
             pdfFormFields.SetField("Cuenta", TxtBoxCuenta.Text)
