@@ -22,119 +22,119 @@ Public Class Form1
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnGuardar.Click
 
 
-        If txtCuenta.Text = "" Then
+        If TxtBoxCuenta.Text = "" Then
             MessageBox.Show("Favor Completar El Formulario")
         Else
 
 
-            '' Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
-            '' Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & TextBox1.Text & Correlativo & ".pdf"
-            Dim pdfTemplate As String = "D:\FORMULARIO SOLVENCIA\REG-PS.505 Solicitud de Solvencias.pdf"
-            Dim newFile As String = "C:\Users\Wasaby\Documents\Datos\Solvencias\" & txtCuenta.Text & Correlativo & ".pdf"
+            'Dim pdfTemplate As String = "C:\Users\Estudiante\Dropbox\REG-PS.505 Solicitud de Solvencias.pdf"
+            'Dim newFile As String = "C:\Users\Estudiante\Dropbox\Solvencias\Pendientes\" & TxtBoxCuenta.Text & Correlativo & ".pdf"
+            Dim pdfTemplate As String = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\REG-PS.505 Solicitud de Solvencias.pdf"
+            Dim newFile As String = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Solvencias\" & TxtBoxCuenta.Text & Correlativo & ".pdf"
             Dim pdfReader As New PdfReader(pdfTemplate)
             Dim pdfStamper As New PdfStamper(pdfReader, New FileStream(
                 newFile, FileMode.Create))
             Dim pdfFormFields As AcroFields = pdfStamper.AcroFields
             Dim pcbContent As PdfContentByte = Nothing
-            ' Dim img As System.Drawing.Image = System.Drawing.Image.FromFile("C:\Firmas\Firma.bmp")
+            Dim img As System.Drawing.Image = System.Drawing.Image.FromFile("C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.bmp")
             Dim sap As PdfSignatureAppearance = pdfStamper.SignatureAppearance
             Dim rect As iTextSharp.text.Rectangle = Nothing
             Dim imagen As iTextSharp.text.Image
             Dim loc As String
 
-            '  loc = "C:\Firmas\Firma.bmp"
-            ' imagen = iTextSharp.text.Image.GetInstance(loc)
-            'imagen.SetAbsolutePosition(389, 92)
-            'imagen.ScaleToFit(130, 130)
-            'pcbContent = pdfStamper.GetUnderContent(1)
-            'pcbContent.AddImage(imagen)
+            loc = "C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.bmp"
+            imagen = iTextSharp.text.Image.GetInstance(loc)
+            imagen.SetAbsolutePosition(427, 47)
+            imagen.ScaleToFit(130, 130)
+            pcbContent = pdfStamper.GetUnderContent(1)
+            pcbContent.AddImage(imagen)
 
             ' set form pdfFormFields
-            pdfFormFields.SetField("Cuenta", txtCuenta.Text)
-            pdfFormFields.SetField("Carrera", cmbCarrera.Text)
-            pdfFormFields.SetField("Nombre", txtNombre.Text)
-            pdfFormFields.SetField("RazonOtro", txtEspecificaciones.Text)
+            pdfFormFields.SetField("Cuenta", TxtBoxCuenta.Text)
+            pdfFormFields.SetField("Carrera", CmboBoxCarrera.Text)
+            pdfFormFields.SetField("Nombre", TxtBoxNombreAlumno.Text)
+            pdfFormFields.SetField("RazonOtro", RichTextBoxEspecificarRazones.Text)
             pdfFormFields.SetField("Fecha_5", lblFecha.Text)
-            pdfFormFields.SetField("Tel", txtTelefono.Text)
-            pdfFormFields.SetField("Email", txtCorreo.Text)
+            pdfFormFields.SetField("Tel", TxtTelefono.Text)
+            pdfFormFields.SetField("Email", TxtCorreo.Text)
             pdfFormFields.SetField("Campus", cmbCampus.Text)
-            pdfFormFields.SetField("CampusDestino", ComboBox2.Text)
-            pdfFormFields.SetField("Recibo", txtNrecibo.Text)
+            pdfFormFields.SetField("CampusDestino", CcmbCampusDestino.Text)
+            pdfFormFields.SetField("Recibo", TxtRecibo.Text)
             'pdfFormFields.SetField("signature5", TextBox1.Text)
 
             ' The form's checkboxes
-            If ckbSAsignatura.Checked = True Then
+            If CheckSyllabusAsignatura.Checked = True Then
                 pdfFormFields.SetField("Contenidos", "On")
             End If
 
-            If chbCertificadoE.Checked = True Then
+            If CheckCertificadoDeEstudio.Checked = True Then
                 pdfFormFields.SetField("Certificado", "On")
             End If
 
-            If chbContaciaA.Checked = True Then
+            If CheckConstanciaAcademica.Checked = True Then
                 pdfFormFields.SetField("Constancia", "On")
             End If
 
-            If CheckBox4.Checked = True Then
+            If CheckGraduacion.Checked = True Then
                 pdfFormFields.SetField("Graduacion", "On")
             End If
 
-            If CheckBox5.Checked = True Then
+            If CheckInicioPractica.Checked = True Then
                 pdfFormFields.SetField("Practica", "On")
             End If
 
-            If CheckBox6.Checked = True Then
+            If CheckTraslado.Checked = True Then
                 pdfFormFields.SetField("Traslado", "On")
             End If
 
-            If CheckBox7.Checked = True Then
+            If CheckAbandonoDeLaUniversidad.Checked = True Then
                 pdfFormFields.SetField("Abandono", "On")
             End If
 
-            If CheckBox8.Checked = True Then
+            If CheckCancelacionDelPeriodo.Checked = True Then
                 pdfFormFields.SetField("Cancelacion", "On")
             End If
 
-            If CheckBox9.Checked = True Then
+            If CheckRetiroDeLaUniversidad.Checked = True Then
                 pdfFormFields.SetField("Retiro", "On")
             End If
 
-            If CheckBox10.Checked = True Then
+            If CheckRetiroPorNormasQueRigenLaVidaEstudiantil.Checked = True Then
                 pdfFormFields.SetField("Normas", "On")
             End If
 
-            If CheckBox11.Checked = True Then
+            If CheckOtros_TramitesAcademicos.Checked = True Then
                 pdfFormFields.SetField("Otros", "On")
             End If
 
-            If CheckBox12.Checked = True Then
+            If CheckSalud.Checked = True Then
                 pdfFormFields.SetField("Salud", "On")
             End If
 
-            If CheckBox13.Checked = True Then
+            If CheckTrabajo.Checked = True Then
                 pdfFormFields.SetField("Trabajo", "On")
             End If
 
-            If CheckBox14.Checked = True Then
+            If CheckEconomicos.Checked = True Then
                 pdfFormFields.SetField("Economicos", "On")
             End If
 
-            If CheckBox15.Checked = True Then
+            If CheckOtros_Razones.Checked = True Then
                 pdfFormFields.SetField("Otros_2", "On")
             End If
 
-            If CheckBox16.Checked = True Then
+            If CheckActivarCuentaParaReintegro.Checked = True Then
                 pdfFormFields.SetField("Reintegro", "On")
             End If
 
-            If RadioButton1.Checked = True Then
+            If Becado.Checked = True Then
                 pdfFormFields.SetField("Beca Si", "On")
             End If
 
-            If RadioButton2.Checked = True Then
+            If NoBecado.Checked = True Then
                 pdfFormFields.SetField("Beca No", "Of")
             End If
-            If RadioButton2.Checked = True Then
+            If NoBecado.Checked = True Then
                 pdfFormFields.SetField("BecasTexto", "N/A")
             End If
 
@@ -149,30 +149,30 @@ Public Class Form1
             pdfStamper.Close()
 
 
-            txtCuenta.Text = ""
-            cmbCarrera.SelectedIndex = -1
-            cmbCarrera.SelectedIndex = -1
-            txtNombre.Text = ""
-            txtTelefono.Text = ""
-            txtCorreo.Text = ""
-            txtNrecibo.Text = ""
-            ckbSAsignatura.CheckState = 0
-            chbCertificadoE.CheckState = 0
-            chbContaciaA.CheckState = 0
-            CheckBox4.CheckState = 0
-            CheckBox5.CheckState = 0
-            CheckBox6.CheckState = 0
-            CheckBox7.CheckState = 0
-            CheckBox8.CheckState = 0
-            CheckBox9.CheckState = 0
-            CheckBox10.CheckState = 0
-            CheckBox11.CheckState = 0
-            CheckBox12.CheckState = 0
-            CheckBox13.CheckState = 0
-            CheckBox14.CheckState = 0
-            CheckBox15.CheckState = 0
-            txtEspecificaciones.Text = ""
-            txtEspecificaciones.Enabled = False
+            TxtBoxCuenta.Text = ""
+            CmboBoxCarrera.SelectedIndex = -1
+            CmboBoxCarrera.SelectedIndex = -1
+            TxtBoxNombreAlumno.Text = ""
+            TxtTelefono.Text = ""
+            TxtCorreo.Text = ""
+            TxtRecibo.Text = ""
+            CheckSyllabusAsignatura.CheckState = 0
+            CheckCertificadoDeEstudio.CheckState = 0
+            CheckConstanciaAcademica.CheckState = 0
+            CheckGraduacion.CheckState = 0
+            CheckInicioPractica.CheckState = 0
+            CheckTraslado.CheckState = 0
+            CheckAbandonoDeLaUniversidad.CheckState = 0
+            CheckCancelacionDelPeriodo.CheckState = 0
+            CheckRetiroDeLaUniversidad.CheckState = 0
+            CheckRetiroPorNormasQueRigenLaVidaEstudiantil.CheckState = 0
+            CheckOtros_TramitesAcademicos.CheckState = 0
+            CheckSalud.CheckState = 0
+            CheckTrabajo.CheckState = 0
+            CheckEconomicos.CheckState = 0
+            CheckOtros_Razones.CheckState = 0
+            RichTextBoxEspecificarRazones.Text = ""
+            RichTextBoxEspecificarRazones.Enabled = False
 
 
 
@@ -185,10 +185,10 @@ Public Class Form1
 
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        cmbCarrera.Text = "Arquitectura"
+        CmboBoxCarrera.Text = "Arquitectura"
         cmbCampus.Text = "San Isidro - La Ceiba"
         TabControl1.SelectedTab = TabPage1
-        RadioButton2.Checked = True
+        NoBecado.Checked = True
 
         Dim fecha As Date
         fecha = Now
@@ -217,49 +217,49 @@ Public Class Form1
     End Sub
 
 
-    Private Sub TextBox3_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtNombre.TextChanged
+    Private Sub TextBox3_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtBoxNombreAlumno.TextChanged
 
-        Dim theText As String = txtNombre.Text
+        Dim theText As String = TxtBoxNombreAlumno.Text
         Dim Letter As String
-        Dim SelectionIndex As Integer = txtNombre.SelectionStart
+        Dim SelectionIndex As Integer = TxtBoxNombreAlumno.SelectionStart
         Dim Change As Integer
         Dim charactersDisallowed As String = "1234567890"
 
 
-        For x As Integer = 0 To txtNombre.Text.Length - 1
-            Letter = txtNombre.Text.Substring(x, 1)
+        For x As Integer = 0 To TxtBoxNombreAlumno.Text.Length - 1
+            Letter = TxtBoxNombreAlumno.Text.Substring(x, 1)
             If charactersDisallowed.Contains(Letter) Then
                 theText = theText.Replace(Letter, String.Empty)
                 Change = 1
             End If
         Next
 
-        txtNombre.Text = theText
-        txtNombre.Select(SelectionIndex - Change, 0)
+        TxtBoxNombreAlumno.Text = theText
+        TxtBoxNombreAlumno.Select(SelectionIndex - Change, 0)
     End Sub
 
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSiguiente.Click
-        If txtCuenta.Text = "" Then
-            ErrorProvider1.SetError(txtCuenta, MessageBox.Show("Campo Obligatorio Vacio!!"))
+        If TxtBoxCuenta.Text = "" Then
+            ErrorProvider1.SetError(TxtBoxCuenta, MessageBox.Show("Campo Obligatorio Vacio!!"))
         Else
-            If txtCuenta.TextLength < 13 Then
+            If TxtBoxCuenta.TextLength < 13 Then
                 MessageBox.Show("Numero de Cuenta Invalido !!")
             Else
-                If CheckBox12.Checked = True And txtEspecificaciones.Text = "" Then
+                If CheckSalud.Checked = True And RichTextBoxEspecificarRazones.Text = "" Then
                     btnSiguiente.Enabled = False
-                    ErrorProvider2.SetError(txtEspecificaciones, MessageBox.Show("Campo Obligatorio Vacio!!"))
+                    ErrorProvider2.SetError(RichTextBoxEspecificarRazones, MessageBox.Show("Campo Obligatorio Vacio!!"))
                 Else
-                    If CheckBox13.Checked = True And txtEspecificaciones.Text = "" Then
+                    If CheckTrabajo.Checked = True And RichTextBoxEspecificarRazones.Text = "" Then
                         btnSiguiente.Enabled = False
-                        ErrorProvider2.SetError(txtEspecificaciones, MessageBox.Show("Campo Obligatorio Vacio!!"))
+                        ErrorProvider2.SetError(RichTextBoxEspecificarRazones, MessageBox.Show("Campo Obligatorio Vacio!!"))
                     Else
-                        If CheckBox14.Checked = True And txtEspecificaciones.Text = "" Then
+                        If CheckEconomicos.Checked = True And RichTextBoxEspecificarRazones.Text = "" Then
                             btnSiguiente.Enabled = False
-                            ErrorProvider2.SetError(txtEspecificaciones, MessageBox.Show("Campo Obligatorio Vacio!!"))
+                            ErrorProvider2.SetError(RichTextBoxEspecificarRazones, MessageBox.Show("Campo Obligatorio Vacio!!"))
                         Else
-                            If CheckBox15.Checked = True And txtEspecificaciones.Text = "" Then
+                            If CheckOtros_Razones.Checked = True And RichTextBoxEspecificarRazones.Text = "" Then
                                 btnSiguiente.Enabled = False
-                                ErrorProvider2.SetError(txtEspecificaciones, MessageBox.Show("Campo Obligatorio Vacio!!"))
+                                ErrorProvider2.SetError(RichTextBoxEspecificarRazones, MessageBox.Show("Campo Obligatorio Vacio!!"))
                             Else
                                 TabControl1.SelectedTab = TabPage2
                             End If
@@ -278,17 +278,17 @@ Public Class Form1
         TabControl1.SelectedTab = TabPage1
     End Sub
 
-    Private Sub TxtCorreo_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles txtCorreo.TextChanged
+    Private Sub TxtCorreo_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TxtCorreo.TextChanged
 
     End Sub
 
-    Private Sub CheckBox6_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox6.CheckedChanged
-        If CheckBox6.Checked = True Then
-            ComboBox2.Enabled = True
+    Private Sub CheckBox6_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckTraslado.CheckedChanged
+        If CheckTraslado.Checked = True Then
+            CcmbCampusDestino.Enabled = True
             Correlativo = "TL1"
         Else
-            ComboBox2.Text = ""
-            ComboBox2.Enabled = False
+            CcmbCampusDestino.Text = ""
+            CcmbCampusDestino.Enabled = False
             Correlativo = ""
         End If
     End Sub
@@ -297,95 +297,95 @@ Public Class Form1
 
     End Sub
 
-    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ckbSAsignatura.CheckedChanged
-        If ckbSAsignatura.CheckState = CheckState.Checked Then
+    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckSyllabusAsignatura.CheckedChanged
+        If CheckSyllabusAsignatura.CheckState = CheckState.Checked Then
             Correlativo = "SOL1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles chbCertificadoE.CheckedChanged
-        If chbCertificadoE.CheckState = CheckState.Checked Then
+    Private Sub CheckBox2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckCertificadoDeEstudio.CheckedChanged
+        If CheckCertificadoDeEstudio.CheckState = CheckState.Checked Then
             Correlativo = "CE1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox3_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles chbContaciaA.CheckedChanged
-        If chbContaciaA.CheckState = CheckState.Checked Then
+    Private Sub CheckBox3_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckConstanciaAcademica.CheckedChanged
+        If CheckConstanciaAcademica.CheckState = CheckState.Checked Then
             Correlativo = "CA1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox4_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox4.CheckedChanged
-        If CheckBox4.CheckState = CheckState.Checked Then
+    Private Sub CheckBox4_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckGraduacion.CheckedChanged
+        If CheckGraduacion.CheckState = CheckState.Checked Then
             Correlativo = "GRA1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox5_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox5.CheckedChanged
-        If CheckBox5.CheckState = CheckState.Checked Then
+    Private Sub CheckBox5_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckInicioPractica.CheckedChanged
+        If CheckInicioPractica.CheckState = CheckState.Checked Then
             Correlativo = "PRA1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox7_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox7.CheckedChanged
-        If CheckBox7.CheckState = CheckState.Checked Then
+    Private Sub CheckBox7_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckAbandonoDeLaUniversidad.CheckedChanged
+        If CheckAbandonoDeLaUniversidad.CheckState = CheckState.Checked Then
             Correlativo = "RTEM1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox8_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox8.CheckedChanged
-        If CheckBox8.CheckState = CheckState.Checked Then
+    Private Sub CheckBox8_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckCancelacionDelPeriodo.CheckedChanged
+        If CheckCancelacionDelPeriodo.CheckState = CheckState.Checked Then
             Correlativo = "CAN1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox9_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox9.CheckedChanged
-        If CheckBox9.CheckState = CheckState.Checked Then
+    Private Sub CheckBox9_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckRetiroDeLaUniversidad.CheckedChanged
+        If CheckRetiroDeLaUniversidad.CheckState = CheckState.Checked Then
             Correlativo = "RTOT1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox10_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox10.CheckedChanged
-        If CheckBox10.CheckState = CheckState.Checked Then
+    Private Sub CheckBox10_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckRetiroPorNormasQueRigenLaVidaEstudiantil.CheckedChanged
+        If CheckRetiroPorNormasQueRigenLaVidaEstudiantil.CheckState = CheckState.Checked Then
             Correlativo = "RTOT1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox16_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox16.CheckedChanged
-        If CheckBox16.CheckState = CheckState.Checked Then
+    Private Sub CheckBox16_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckActivarCuentaParaReintegro.CheckedChanged
+        If CheckActivarCuentaParaReintegro.CheckState = CheckState.Checked Then
             Correlativo = "RI1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox11_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox11.CheckedChanged
-        If CheckBox11.CheckState = CheckState.Checked Then
+    Private Sub CheckBox11_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckOtros_TramitesAcademicos.CheckedChanged
+        If CheckOtros_TramitesAcademicos.CheckState = CheckState.Checked Then
             Correlativo = "SOL1"
         Else
             Correlativo = ""
         End If
     End Sub
 
-    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles CheckBox12.CheckedChanged
+    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles CheckSalud.CheckedChanged
 
     End Sub
 End Class

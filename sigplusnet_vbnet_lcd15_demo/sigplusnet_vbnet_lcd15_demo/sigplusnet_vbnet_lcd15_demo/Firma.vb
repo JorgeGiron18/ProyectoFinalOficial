@@ -257,7 +257,7 @@ Public Class Firma
             'this can be stored as desired, in a database, etc.
             'Method 2--storing as a SIG file on the hard drive
 
-            SigPlusNET1.ExportSigFile("C:\Firmas\Firma.sig")
+            SigPlusNET1.ExportSigFile("C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.sig")
             'The commented-out function above will export the signature to the SIG file
             'specified (in this case C:\SigFile1.sig, saving the signature as a file on your hardrive
             '*****************************************************************************************'
@@ -268,7 +268,7 @@ Public Class Firma
             Dim myimage As Image
 
             myimage = SigPlusNET1.GetSigImage()
-            myimage.Save("C:\Firmas\Firma.bmp", System.Drawing.Imaging.ImageFormat.Bmp)
+            myimage.Save("C:\Users\Usuario\Downloads\ProyectoFinalOficial-master\Firma\Firma.bmp", System.Drawing.Imaging.ImageFormat.Bmp)
 
             SigPlusNET1.SetJustifyMode(0)
 
@@ -286,9 +286,7 @@ Public Class Firma
                 SigPlusNET1.LCDWriteString(0, 2, 35, 25, f, "Firma Capturada Exitosamente")
                 System.Threading.Thread.Sleep(2000)
                 firmado = True
-                'Application.Exit()
-
-                Me.Close()
+                Me.Dispose()
             Else
                 SigPlusNET1.LCDRefresh(0, 0, 0, 240, 64)
                 SigPlusNET1.LCDSendGraphic(0, 2, 4, 20, please)
