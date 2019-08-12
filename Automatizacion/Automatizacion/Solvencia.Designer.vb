@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,12 +20,13 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Label4 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.lbBiblia = New System.Windows.Forms.Label()
         Me.BtnRegresar = New System.Windows.Forms.Button()
         Me.Label20 = New System.Windows.Forms.Label()
         Me.lblFecha = New System.Windows.Forms.Label()
@@ -117,6 +118,7 @@ Partial Class Form1
         'TabPage2
         '
         Me.TabPage2.BackColor = System.Drawing.Color.RoyalBlue
+        Me.TabPage2.Controls.Add(Me.lbBiblia)
         Me.TabPage2.Controls.Add(Me.BtnRegresar)
         Me.TabPage2.Controls.Add(Me.Label20)
         Me.TabPage2.Controls.Add(Me.lblFecha)
@@ -131,6 +133,15 @@ Partial Class Form1
         Me.TabPage2.Size = New System.Drawing.Size(1320, 650)
         Me.TabPage2.TabIndex = 1
         Me.TabPage2.Text = "PASO 2"
+        '
+        'lbBiblia
+        '
+        Me.lbBiblia.AutoSize = True
+        Me.lbBiblia.Location = New System.Drawing.Point(972, 485)
+        Me.lbBiblia.Name = "lbBiblia"
+        Me.lbBiblia.Size = New System.Drawing.Size(200, 20)
+        Me.lbBiblia.TabIndex = 26
+        Me.lbBiblia.Text = "Aquí va el mensaje XML"
         '
         'BtnRegresar
         '
@@ -194,7 +205,7 @@ Partial Class Form1
         '
         'btnGuardar
         '
-        Me.btnGuardar.Location = New System.Drawing.Point(817, 493)
+        Me.btnGuardar.Location = New System.Drawing.Point(985, 570)
         Me.btnGuardar.Name = "btnGuardar"
         Me.btnGuardar.Size = New System.Drawing.Size(149, 50)
         Me.btnGuardar.TabIndex = 22
@@ -941,4 +952,5 @@ Partial Class Form1
     Friend WithEvents Becado As RadioButton
     Friend WithEvents ErrorProvider1 As ErrorProvider
     Friend WithEvents ErrorProvider2 As ErrorProvider
+    Friend WithEvents lbBiblia As Label
 End Class

@@ -13,6 +13,7 @@ Imports System.IO
 Imports sigplusnet_vbnet_lcd15_demo
 Imports System.Data.Sql
 Imports System.Data.SqlClient
+Imports System.Xml
 
 
 Public Class Form1
@@ -197,6 +198,12 @@ Public Class Form1
         Label20.ForeColor = Color.Orange
         btnGuardar.Enabled = True
 
+        Dim Doc As New XmlDocument()
+        Dim xmlnode As XmlNodeList
+        Dim i As Integer = 0
+        Doc.Load(Application.StartupPath & "\Versiculo.xml")
+        xmlnode = Doc.GetElementsByTagName("Versiculo")
+        lbBiblia.Text = xmlnode(0).ChildNodes.Item(0).InnerText.Trim()
 
     End Sub
 
@@ -385,7 +392,5 @@ Public Class Form1
         End If
     End Sub
 
-    Private Sub CheckBox12_CheckedChanged(sender As Object, e As EventArgs) Handles CheckSalud.CheckedChanged
 
-    End Sub
 End Class
