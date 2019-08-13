@@ -48,6 +48,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -74,6 +75,18 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcercaDe.Designer.vb">
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AcercaDe.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirectionXml.Designer.vb">
+      <DependentUpon>DirectionXml.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DirectionXml.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Menu.Designer.vb">
       <DependentUpon>Menu.vb</DependentUpon>
     </Compile>
@@ -95,8 +108,24 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Ruta.Designer.vb">
+      <DependentUpon>Ruta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ruta.vb" />
+    <Compile Include="XmlVersiculo.Designer.vb">
+      <DependentUpon>XmlVersiculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="XmlVersiculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AcercaDe.resx">
+      <DependentUpon>AcercaDe.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirectionXml.resx">
+      <DependentUpon>DirectionXml.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Menu.resx">
       <DependentUpon>Menu.vb</DependentUpon>
     </EmbeddedResource>
@@ -105,6 +134,12 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruta.resx">
+      <DependentUpon>Ruta.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XmlVersiculo.resx">
+      <DependentUpon>XmlVersiculo.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -130,6 +165,69 @@
       <Project>{0B90A5B7-C031-47D9-820E-05CE7DCB9A7C}</Project>
       <Name>Automatizacion</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boton1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close[67].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TITULO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen4 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_2C1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_2B1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_2C8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_2C6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO_2B1[68].png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen4 %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargarxml.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cargarxml1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CREARXML.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CARGAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACEPTAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20190812_171430.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

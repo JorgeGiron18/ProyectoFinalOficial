@@ -185,3 +185,8 @@ C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\D
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.exe
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.xml
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.pdb
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.XmlVersiculo.resources
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.AcercaDe.resources
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\bin\Debug\Automatizacion.exe.config
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.DirectionXml.resources
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\REGSI - copia\REGSI\obj\Debug\REGSI.Ruta.resources

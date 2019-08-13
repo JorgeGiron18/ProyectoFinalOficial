@@ -162,3 +162,4 @@ C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\Automatizacion\Automatiza
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.exe
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.xml
 C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\Automatizacion\Automatizacion\obj\Debug\Automatizacion.pdb
+C:\Users\Usuario\Desktop\Proyecto\ProyectoFinalOficial\Automatizacion\Automatizacion\bin\Debug\Automatizacion.exe.config

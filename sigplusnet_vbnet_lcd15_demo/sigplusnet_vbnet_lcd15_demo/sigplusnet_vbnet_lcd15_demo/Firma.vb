@@ -140,7 +140,7 @@ Public Class Firma
                 SigPlusNET1.LCDRefresh(1, 200, 45, 20, 15) 'Refresh (invert) LCD at 'EXIT' to indicate to user that this option has been sucessfully chosen
                 SigPlusNET1.SetLCDCaptureMode(1)
                 SigPlusNET1.LCDRefresh(0, 0, 0, 240, 64)
-                Me.Close()
+                Me.Dispose()
                 'reset hardware
                 SigPlusNET1.SetTabletState(0)
                 'Application.Exit()
@@ -399,6 +399,10 @@ Public Class Firma
     End Sub
 
     Private Sub SigPlusNET1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SigPlusNET1.Click
+
+    End Sub
+
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
 
     End Sub
 End Class

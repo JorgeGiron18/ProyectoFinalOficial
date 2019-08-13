@@ -23,9 +23,9 @@ Partial Class Firma
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Firma))
-        Me.cmdStart = New System.Windows.Forms.Button
-        Me.SigPlusNET1 = New Topaz.SigPlusNET
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox
+        Me.cmdStart = New System.Windows.Forms.Button()
+        Me.SigPlusNET1 = New Topaz.SigPlusNET()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -61,7 +61,8 @@ Partial Class Firma
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(458, 156)
+        Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(49, Byte), Integer), CType(CType(59, Byte), Integer), CType(CType(104, Byte), Integer))
+        Me.ClientSize = New System.Drawing.Size(370, 156)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.SigPlusNET1)
         Me.Controls.Add(Me.cmdStart)

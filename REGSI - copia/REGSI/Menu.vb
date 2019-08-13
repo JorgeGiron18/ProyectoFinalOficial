@@ -5,7 +5,27 @@ Public Class Menu
      
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Cerrar_Click(sender As Object, e As EventArgs) Handles Cerrar.Click
+        Me.Dispose()
+    End Sub
+
+    Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles BtnAbrirSolvencia.Click
         Solvencia.ShowDialog()
+    End Sub
+
+    Private Sub Minimizar_Click(sender As Object, e As EventArgs) Handles Minimizar.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles Xml.Click
+        XmlVersiculo.ShowDialog()
+    End Sub
+
+    Private Sub AboutBox_Click(sender As Object, e As EventArgs) Handles AboutBox.Click
+        AcercaDe.ShowDialog()
+    End Sub
+
+    Private Sub PictureBox3_Click_1(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        DirectionXml.ShowDialog()
     End Sub
 End Class
